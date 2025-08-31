@@ -19,4 +19,5 @@ A web application that helps users find visually similar products based on uploa
 
 ## Deployment
 
-The app can be deployed on Heroku, Netlify, or any Node.js hosting platform.
+- Deployed on Render.
+- Live @ https://visual-product-matcher-f0o8.onrender.com/
