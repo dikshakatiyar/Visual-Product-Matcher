@@ -10,8 +10,13 @@ require('dotenv').config();
 const vision = require('@google-cloud/vision');
 
 const app = express();
-const port = process.env.PORT || 3000;
+// Add this at the top of server.js after imports
+const PORT = process.env.PORT || 3000;
 
+// Change your app.listen to:
+app.listen(PORT, '0.0.0.0', () => {
+  console.log(`🚀 Server running on port ${PORT}`);
+});
 // Initialize Google Vision client
 // Initialize Google Vision client
 let client;
