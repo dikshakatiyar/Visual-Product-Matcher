@@ -1,0 +1,53 @@
+id,name,category,price,imageUrl,description
+1,Red Polo T-Shirt,Clothing,499,https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Comfortable cotton polo t-shirt in red color
+2,Blue Denim Jeans,Clothing,1299,https://images.unsplash.com/photo-1542272604-787c3835535d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Classic blue denim jeans with stretch fit
+3,Black Running Shoes,Footwear,2999,https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Lightweight running shoes with cushion support
+4,Leather Wallet,Accessories,799,https://images.unsplash.com/photo-1627123424574-724758594e93?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Genuine leather wallet with multiple card slots
+5,Samsung Galaxy M34,Electronics,18999,https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,6.5-inch AMOLED display with 6000mAh battery
+6,Ceramic Coffee Mug,Home,299,https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,350ml ceramic mug with comfortable handle
+7,Baseball Cap,Clothing,499,https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Adjustable baseball cap with breathable fabric
+8,Stainless Steel Bottle,Accessories,599,https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,1L stainless steel water bottle, leak proof
+9,LED Desk Lamp,Home,1299,https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Adjustable LED lamp with 3 brightness levels
+10,Travel Backpack,Accessories,1999,https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,30L waterproof backpack with laptop compartment
+11,Wireless Earbuds,Electronics,2499,https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Bluetooth 5.0 with 20 hours battery life
+12,Cotton Socks Pack,Clothing,399,https://images.unsplash.com/photo-1534215754734-18e55d13e346?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Pack of 5 cotton socks in assorted colors
+13,Non-Stick Fry Pan,Home,899,https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,24cm non-stick frying pan with induction base
+14,Analog Wrist Watch,Accessories,1599,https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Water resistant watch with leather strap
+15,Wireless Mouse,Electronics,699,https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Ergonomic wireless mouse with 2.4GHz receiver
+16,Yoga Mat,Sports,899,https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,6mm thick yoga mat with non-slip surface
+17,Wooden Photo Frame,Home,499,https://images.unsplash.com/photo-1594069033310-4d1966385e63?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,10x12 inch wooden photo frame with glass
+18,Sports Water Bottle,Sports,449,https://images.unsplash.com/photo-1602143407151-7111542de6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,750ml BPA-free plastic sports bottle
+19,Bluetooth Speaker,Electronics,3499,https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,20W portable speaker with RGB lights
+20,Cotton Kurta,Clothing,899,https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Comfortable cotton kurta with embroidery work
+21,Vegetable Chopper,Home,599,https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Multi-functional vegetable chopper with containers
+22,Running Shorts,Sports,599,https://images.unsplash.com/photo-1591047139829-d91aecb6caea?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Quick-dry running shorts with pocket
+23,Phone Stand,Accessories,299,https://images.unsplash.com/photo-1605792657660-596af92c8da1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Adjustable phone stand for viewing angles
+24,Desk Organizer,Home,499,https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Multi-compartment desk organizer for supplies
+25,Power Bank,Electronics,1999,https://images.unsplash.com/photo-1597766586176-2e7d5e5d9d0e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,20000mAh power bank with fast charging
+26,Casual Shirt,Clothing,999,https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Formal casual shirt with slim fit
+27,Resistance Bands,Sports,799,https://images.unsplash.com/photo-1598974357801-cbca100e65d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Set of 5 resistance bands for workout
+28,Table Lamp,Home,699,https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Modern table lamp with touch control
+29,Headphones,Electronics,1499,https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Over-ear headphones with noise isolation
+30,Silk Saree,Clothing,3599,https://images.unsplash.com/photo-1585487000124-4bd4c9a3235a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Pure silk saree with traditional border
+31,Dumbbell Set,Sports,2499,https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,20kg adjustable dumbbell set with case
+32,Air Purifier,Home,8999,https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,HEPA air purifier for rooms up to 250 sq ft
+33,Smart Watch,Electronics,4999,https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Fitness tracker with heart rate monitor
+34,Winter Jacket,Clothing,2999,https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Thermal winter jacket with hood
+35,Yoga Block,Sports,399,https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,High-density foam yoga block for support
+36,Mixer Grinder,Home,3499,https://images.unsplash.com/photo-1570222094114-d054a817e56b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,750W mixer grinder with 3 jars
+37,Gaming Mouse,Electronics,1799,https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,RGB gaming mouse with 6400 DPI
+38,Formal Trousers,Clothing,1499,https://images.unsplash.com/photo-1598033129183-c4f50c736f10?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Office formal trousers with crease resistant
+39,Skincare Kit,Beauty,1999,https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,5-piece skincare kit for daily routine
+40,Wall Clock,Home,899,https://images.unsplash.com/photo-1493612276216-ee3925520721?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,30cm round wall clock with silent movement
+41,Webcam,Electronics,2499,https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,1080p webcam with built-in microphone
+42,Perfume Set,Beauty,1299,https://images.unsplash.com/photo-1595425970377-2f8ded7c7b19?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Set of 3 long-lasting perfume variants
+43,Bed Sheet Set,Home,1499,https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,King size cotton bed sheet set with 2 pillow covers
+44,Mechanical Keyboard,Electronics,3499,https://images.unsplash.com/photo-1541140532154-b024d705b90a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,RGB mechanical keyboard with blue switches
+45,Face Moisturizer,Beauty,599,https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Hyaluronic acid face moisturizer for all skin types
+46,Plant Pot Set,Home,799,https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Set of 3 ceramic plant pots with drainage
+47,Wireless Charger,Electronics,1499,https://images.unsplash.com/photo-1609091839311-d5365f2e0c5a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,15W fast wireless charger with LED indicator
+48,Lipstick Set,Beauty,899,https://images.unsplash.com/photo-1596462502278-27bfdc403348?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Set of 5 matte finish lipsticks in different shades
+49,Curtains,Home,1999,https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Pair of blackout curtains with thermal insulation
+50,USB Hub,Electronics,999,https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,4-port USB 3.0 hub with individual switches
+51,Nail Polish Set,Beauty,499,https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Set of 7 nail polishes with base and top coat
+52,Storage Baskets,Home,1299,https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=600,Set of 3 fabric storage baskets with handles

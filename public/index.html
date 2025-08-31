@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Product Matcher</title>
+    <img rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Visual Product Matcher</h1>
+            <p>Upload an image to find similar products</p>
+        </header>
+        
+        <div class="upload-section">
+            <div id="uploaded-image-container" class="uploaded-image-container hidden">
+            <h3>Uploaded Image</h3>
+            <img id="uploaded-image" src="" alt="Uploaded image" class="uploaded-image">
+            </div>
+            <div class="upload-box" id="upload-box">
+                <div class="upload-placeholder">
+                    <span class="upload-icon">📁</span>
+                    <p>Drag & drop an image here</p>
+                    <p>or</p>
+                    <button class="browse-btn">Browse Files</button>
+                </div>
+                <input type="file" id="file-input" accept="image/*" hidden />
+            </div>
+            
+            <div class="url-section">
+                <p>Or enter image URL:</p>
+                <div class="url-input-container">
+                    <input type="text" id="url-input" placeholder="https://example.com/image.jpg" />
+                    <button id="url-submit">Go</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-section hidden" id="results-section">
+            <h2>Similar Products</h2>
+            <div class="filters">
+                <label>Sort by:
+                    <select id="filter-select">
+                        <option value="score">Similarity Score</option>
+                        <option value="name">Product Name</option>
+                        <option value="price">Price</option>
+                    </select>
+                </label>
+            </div>
+            <div class="results-info">
+                <p id="results-count">Found 0 products</p>
+                <div id="color-palette" class="color-palette"></div>
+            </div>
+            <div id="results-container" class="product-grid"></div>
+        </div>
+
+        <div id="loading" class="loading hidden">
+            <div class="spinner"></div>
+            <p>Analyzing image and finding matches...</p>
+        </div>
+
+        <div id="error" class="error hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

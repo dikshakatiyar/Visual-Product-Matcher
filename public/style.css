@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgb(3, 223, 21);
+    min-height: 100vh;
+    padding: 20px;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    color: #4a5568;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #718096;
+    font-size: 1.1rem;
+}
+
+.upload-section {
+    background: #f7fafc;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px dashed #cbd5e0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.uploaded-image-container {
+  text-align: center;
+  margin: 20px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+.uploaded-image-container h3 {
+  margin-bottom: 15px;
+  color: #4a5568;
+}
+
+.uploaded-image {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: none; /* Hidden by default */
+}
+
+.uploaded-image.loaded {
+  display: block; /* Show when image is loaded */
+}
+/* Fix for product images that might not load */
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #e2e8f0;
+    background: #f7fafc;
+}
+
+/* Add loading and error states for images */
+.product-card img[src=""],
+.product-card img:not([src]) {
+    opacity: 0;
+}
+
+.product-card img::before {
+    content: "Loading...";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #718096;
+}
+
+.product-card img::after {
+    content: "Image not available";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #e53e3e;
+    display: none;
+}
+
+.product-card img[src].error::after {
+    display: block;
+}
+.upload-box {
+    border: 2px dashed #a0aec0;
+    border-radius: 10px;
+    padding: 40px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.upload-box:hover {
+    border-color: #667eea;
+    background: #edf2f7;
+}
+
+.upload-placeholder {
+    color: #718096;
+}
+
+.upload-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.browse-btn {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 15px;
+    transition: background 0.3s ease;
+}
+
+.browse-btn:hover {
+    background: #5a67d8;
+}
+
+.url-section {
+    margin-top: 25px;
+}
+
+.url-input-container {
+    display: flex;
+    max-width: 500px;
+    margin: 15px auto 0;
+}
+
+#url-input {
+    flex: 1;
+    padding: 12px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px 0 0 6px;
+    font-size: 1rem;
+}
+
+#url-submit {
+    background: #48bb78;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 0 6px 6px 0;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#url-submit:hover {
+    background: #38a169;
+}
+
+.results-section {
+    margin-top: 30px;
+}
+
+.filters {
+    margin-bottom: 20px;
+}
+
+#filter-select {
+    padding: 8px;
+    border: 2px solid #e2e8f0;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.results-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.color-palette {
+    display: flex;
+    gap: 10px;
+}
+
+.color-swatch {
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e2e8f0;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.product-info {
+    padding: 15px;
+}
+
+.product-info h3 {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+    color: #2d3748;
+}
+
+.product-info p {
+    color: #718096;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.score {
+    color: #667eea !important;
+    font-weight: bold;
+    font-size: 1rem !important;
+}
+
+.price {
+    color: #48bb78 !important;
+    font-weight: bold;
+}
+
+.loading {
+    text-align: center;
+    padding: 40px;
+}
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    border: 4px solid #e2e8f0;
+    border-top: 4px solid #667eea;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 20px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error {
+    background: #fed7d7;
+    color: #c53030;
+    padding: 15px;
+    border-radius: 6px;
+    margin: 20px 0;
+    border-left: 4px solid #c53030;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+    
+    .upload-box {
+        padding: 20px;
+    }
+    
+    .url-input-container {
+        flex-direction: column;
+    }
+    
+    #url-input {
+        border-radius: 6px;
+        margin-bottom: 10px;
+    }
+    
+    #url-submit {
+        border-radius: 6px;
+    }
+    
+    .results-info {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}
