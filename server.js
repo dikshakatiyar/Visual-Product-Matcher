@@ -333,12 +333,14 @@ app.get('/api/health', (req, res) => {
 });
 
 // Start server
+// Start server after loading products
 loadProductsFromCSV()
   .then(() => {
-    app.listen(port, () => {
-      console.log(`🚀 Server running on http://localhost:${port}`);
+    app.listen(PORT, '0.0.0.0', () => {
+      console.log(`🚀 Server running on port ${PORT}`);
       console.log('✅ Google Vision API integrated');
-      console.log('✅ Enhanced product matching ready');
+      console.log('✅ Product matching ready');
+      console.log(`✅ Loaded ${productsWithColors.length} products`);
     });
   })
   .catch(error => {
