@@ -13,9 +13,23 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Initialize Google Vision client
-const client = new vision.ImageAnnotatorClient({
-  keyFilename: path.join(__dirname, 'google-key.json')
-});
+// Initialize Google Vision client
+let client;
+if (process.env.NODE_ENV === 'production') {
+  // Use environment variables for production
+  client = new vision.ImageAnnotatorClient({
+    credentials: {
+      projectId: process.env.GOOGLE_PROJECT_ID,
+      privateKey: process.env.GOOGLE_PRIVATE_KEY?.replace(/\\n/g, '\n'),
+      clientEmail: process.env.GOOGLE_CLIENT_EMAIL
+    }
+  });
+} else {
+  // Use key file for local development
+  client = new vision.ImageAnnotatorClient({
+    keyFilename: path.join(__dirname, 'google-key.json')
+  });
+}
 
 // Middleware
 app.use(cors());
