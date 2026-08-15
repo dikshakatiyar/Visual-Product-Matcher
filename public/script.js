@@ -16,6 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentResults = [];
     init();
 
+
+
+
+
+
+
+    
+
     function init() {
         setupEventListeners();
         console.log('Visual Product Matcher initialized');
